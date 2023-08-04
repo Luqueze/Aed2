@@ -7,6 +7,6 @@ bool estacontido(int vetor[], int num){
         if(vetor[i] == num){
             return true;
         }
-    }
+    } 
     return false;
 } 
