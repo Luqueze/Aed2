@@ -12,7 +12,7 @@ Vetor* CriarVetor(int tam) {
     return v;
 }
 
-void FillVector(Vetor *v) {
+void FillVector(Vetor *v, int tam) {
     for (int i = 0; i < v->tam; i++) {
         v->elems[i] = i;
     }
@@ -41,7 +41,7 @@ void ApagarElementos(Vetor *v){
 void ExibirVetor(Vetor *v){
     for (int i = 0; i < v->tam; i++) {
         printf("%d", v->elems[i]);
-        
+
     }
 
 }
