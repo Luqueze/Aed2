@@ -41,9 +41,7 @@ void ApagarElementos(Vetor *v){
 void ExibirVetor(Vetor *v){
     for (int i = 0; i < v->tam; i++) {
         printf("%d", v->elems[i]);
-        if (i < v->tam - 1) {
-            printf(", ");
-        }
+        
     }
 
 }
